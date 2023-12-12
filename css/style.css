@@ -30,10 +30,22 @@ img {
   background-color: #e5e5e5;
 }
 
+.bgc-lgry {
+  background-color: #f7f7f7;
+}
+
+.bgc-bl {
+  background-color: #1b72e8;
+}
+
 /* Color */
 
 .clr-gld {
   color: #ff8f00;
+}
+
+.clr-wht {
+  color: white;
 }
 
 /* Header */
@@ -58,8 +70,9 @@ nav {
 }
 
 .sidebar {
-  flex-basis: 100px;
+  flex-basis: 70px;
   background-color: black;
+  /* background-image: url(/img/sidebar-bg.png); */
   flex-shrink: 0;
 }
 
@@ -69,11 +82,11 @@ nav {
   overflow-y: auto;
 }
 
-.content-top {
-  height: 100px;
-  background-color: goldenrod;
+.img-table {
+  height: 30px;
 }
 
-p {
-  color: white;
+.content-top {
+  height: 100px;
+  /* background-color: goldenrod; */
 }

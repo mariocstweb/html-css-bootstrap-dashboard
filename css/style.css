@@ -13,3 +13,46 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  height: 150px;
+  background-color: white;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  flex-basis: 100px;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: dodgerblue;
+  overflow-y: auto;
+}
+
+.content-top {
+  height: 100px;
+  background-color: goldenrod;
+}
+
+p {
+  color: white;
+}

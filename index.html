@@ -119,9 +119,68 @@
                 <div class="col mb-4 order-md-last">
                   <div class="d-flex align-items-center">
                     <span>Nuovo Studente</span>
-                    <span
-                      ><i class="fa-regular fa-square-plus plus-size ms-4"></i
-                    ></span>
+                    <!-- OFFCANVAS -->
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                    >
+                      <i class="fa-regular fa-square-plus plus-size ms-4"></i>
+                    </button>
+
+                    <div
+                      class="offcanvas offcanvas-end"
+                      tabindex="-1"
+                      id="offcanvasRight"
+                      aria-labelledby="offcanvasRightLabel"
+                    >
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                          Inserisci un nuovo studente
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="offcanvas"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <!-- BODY -->
+                        <div class="d-flex">
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Email address</label
+                            >
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="name@example.com"
+                            />
+                          </div>
+
+                          <div class="mb-3">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              >Email address</label
+                            >
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="name@example.com"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- OFFCANVAS END -->
                   </div>
                 </div>
                 <div class="col mb-4 order-md-first">

@@ -125,7 +125,7 @@ nav {
 }
 
 .table td {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .trash-pencil {
@@ -152,4 +152,8 @@ nav {
 .sidebar ul li a:hover,
 .sidebar .side-bottom:hover {
   background-color: rgba(255, 255, 255, 0.643);
+}
+
+.myOffcanvas {
+  /* --bs-offcanvas-width: 600px; */
 }
